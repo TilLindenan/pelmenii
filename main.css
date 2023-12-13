@@ -1,0 +1,119 @@
+.container {
+  max-width: 199vmin;
+}
+.block {
+  height: 300vmin;
+  background-color: rgba(207, 128, 103, 1);
+}
+.box {
+  height: 30vmin;
+  background-color: rgba(228, 185, 146, 1);
+}
+.box_1 {
+  width: 20vmin;
+  height: 20vmin;
+  border-radius: 100%;
+  background-color: rgba(217, 217, 217, 1);
+  position: relative;
+  left: 5vmin;
+  top: 5vmin;
+}
+.block_o {
+  width: 20vmin;
+  height: 8vmin;
+  background-color: rgba(207, 128, 103, 1);
+  position: relative;
+  left: 70vmin;
+  bottom: 15vmin;
+  border-radius: 10vmin;
+}
+.text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: relative;
+  left: 3vmin;
+  font-size: 6vmin;
+  color: black;
+}
+.block_Pel {
+  width: 80vmin;
+  height: 45vmin;
+  background-color: rgba(217, 217, 217, 1);
+  border-radius: 10vmin;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text_Pel {
+  font-weight: 500;
+  width: 70vmin;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 5vmin;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.img_1 {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  top: 30vmin;
+  left: 8vmin;
+  border-radius: 10vmin;
+}
+.text_2 {
+  text-decoration: none;
+}
+.block_Man {
+  height: 150vmin;
+  background-color: rgba(228, 185, 146, 1);
+  position: relative;
+  top: 70vmin;
+}
+.box_2 {
+  width: 90vmin;
+  height: 60vmin;
+  background-color: rgba(217, 217, 217, 1);
+  position: relative;
+  top: 5vmin;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10vmin;
+}
+.text_4 {
+  width: 80vmin;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 5vmin;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.img_2 {
+  width: 80vmin;
+  height: 60vmin;
+
+  position: relative;
+  top: 20vmin;
+  left: 8vmin;
+
+  border-radius: 8px;
+}
+@media (max-width: 415px) {
+  .block_Pel {
+    height: 60vmin;
+  }
+}
+@media (max-width: 350px) {
+  .block_Man {
+    transform: translate(0, 30vmin);
+  }
+  .block_Pel {
+    height: 70vmin;
+  }
+}
+@media (max-width: 331px) {
+  .box_2 {
+    height: 70vmin;
+  }
+  .block_Pel {
+    height: 80vmin;
+  }
+}
